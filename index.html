@@ -12,9 +12,22 @@
     <img src='./Assets/logo.png' class="logo" />
     <h1 class="logo-heading">Nutrizip</h1>
     <p class="p-tagline">Start 2021 on a healthy note with fresh smoothies delivered daily.</p>
-    <p class="cta-text">Enter details and get a smoothie free on first order.</p>
+    <p class="cta-text">Submit Email to get a free smoothie on first order.</p>
+
     <div class="container">
-        <a href="#" class="cta">Enter details</a>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label> <span style="font-family: 'Montserrat', sans-serif; color: #4A4A4A;"> Email: </span> <input style="border: 1px solid #F85F73; padding: 4px;
+                    border-radius: 4px; width: 500;"
+                        type="email" name="name" />
+                </label>
+            </p>
+        </form>
+
+    </div>
+
+    <div class="container">
+        <a href="#" class="cta">Submit</a>
     </div>
 
     <p class="p-launching">Delivering health across Udaipur, starting 2021</p>
